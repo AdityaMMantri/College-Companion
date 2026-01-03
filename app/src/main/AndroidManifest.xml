@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!-- Internet access for Flask calls -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.UI_demo"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".ApiConfig"
+            android:exported="false" />
+        <activity
+            android:name=".BadgesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AnswerDetailsAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".ResultsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuizActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Agent3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Agent3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Agent3_MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Agent2Activity_anmi"
+            android:exported="false" />
+        <activity
+            android:name=".TimetableActivity"
+            android:exported="false" /> <!-- 👇 LoginActivity is your launcher screen -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- Other app screens -->
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DashBoard3"
+            android:exported="false" />
+        <activity
+            android:name=".Agent1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Agent2Activity"
+            android:exported="false" />
+    </application>
+
+</manifest>

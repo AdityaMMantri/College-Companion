@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    app:cardElevation="2dp"
+    app:cardCornerRadius="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Header -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="12dp">
+
+            <TextView
+                android:id="@+id/tvQuestionNum"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Question 1"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#2C3E50"/>
+
+            <TextView
+                android:id="@+id/tvIsCorrect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="✓ Correct"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="#27AE60"/>
+
+            <TextView
+                android:id="@+id/tvXPEarned"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+25 XP"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="#F39C12"
+                android:layout_marginStart="8dp"/>
+        </LinearLayout>
+
+        <!-- Correct Answer (shown only when incorrect) -->
+        <TextView
+            android:id="@+id/tvCorrectAnswer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Correct Answer: B"
+            android:textSize="14sp"
+            android:textColor="#E74C3C"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            android:visibility="gone"/>
+
+        <!-- Explanation -->
+        <TextView
+            android:id="@+id/tvExplanation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="💡 Explanation goes here"
+            android:textSize="14sp"
+            android:textColor="#34495E"
+            android:lineSpacingExtra="2dp"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Fun Fact -->
+        <TextView
+            android:id="@+id/tvFunFact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🎓 Fun Fact: This is interesting!"
+            android:textSize="13sp"
+            android:textColor="#7F8C8D"
+            android:lineSpacingExtra="2dp"
+            android:textStyle="italic"
+            android:visibility="gone"/>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

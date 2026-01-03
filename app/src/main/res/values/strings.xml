@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Synapse AI</string>
+    <string name="agent2_title">Study Assistant</string>
+    <string name="agent2_subtitle">Your 24/7 learning companion</string>
+    <string name="message_hint">Ask your study AI anything...</string>
+    <string name="send_button">➤</string>
+    <string name="summary_title">📝 Session Summary</string>
+    <string name="summary_saved">✓ Summary Saved</string>
+    <string name="welcome_message">👋 Hi! I\'m your personal study assistant. I\'m here to help you learn and understand any topic.\n\n• Ask me questions about any subject\n• Request explanations or examples\n• Upload files for analysis\n• Type \'quit\' to end session and see summary</string>
+
+    <string name="s1">AI Study Companion</string>
+    <string name="s2">Welcome back! Please login</string>
+    <string name="s3">Email Address</string>
+    <string name="s4">Enter your email</string>
+    <string name="s5">Password</string>>
+    <string name="s6">Enter your password</string>
+    <string name="s7">Login</string>
+    <string name="s8">Don\'t have an account? </string>
+    <string name="s9">Register</string>
+
+    <string name="s10">Create Account</string>
+    <string name="s11">Join us to start your learning journey</string>
+    <string name="s12">Username</string>
+    <string name="s13">Choose a username</string>
+    <string name="s14">Create a password</string>
+    <string name="s15">Already have an account? </string>
+
+    <string name="s16">Welcome to AI Study Companion</string>
+    <string name="s17">Choose your AI assistant</string>
+    <string name="s18">Timetable Manager AI</string>
+    <string name="s19">Organize your schedule efficiently</string>
+    <string name="s20">Open Timetable Manager</string>
+    <string name="s21">Study Assistant AI</string>
+    <string name="s22">Get smart study recommendations</string>
+    <string name="s23">Open Study Assistant</string>
+    <string name="s24">Quiz Generator AI</string>
+    <string name="s25">Test your knowledge with AI quizzes</string>
+    <string name="s26">Open Quiz Generator</string>
+
+    <string name="m1">🗓️ Timetable Assistant</string>
+    <string name="m2">Plan your schedule smartly</string>
+    <string name="m3">Type your message...</string>
+
+    <string name="m4">📅 Your Timetable</string>
+    <string name="m5">Manage your schedule efficiently</string>
+
+    <string name="m6">AI Coding Assistant</string>
+    <string name="m7">Active now</string>
+    <string name="m8">AI is thinking...</string>
+    <string name="m9">Ask me anything...</string>
+
+    <string name="m10">🎯 Quiz Legends</string>
+    <string name="m11">Welcome back!</string>
+    <string name="m12">Ready to test your knowledge?</string>
+    <string name="m13">Quiz Topic</string>
+    <string name="m14">e.g., Science, History, Math, Technology</string>
+    <string name="m15">Number of Questions</string>
+    <string name="m16">Default: 5 questions</string>
+    <string name="m17">Question Type</string>
+    <string name="m18">Multiple Choice</string>
+    <string name="m19">True/False</string>
+    <string name="m20">Fill in the Blank</string>
+    <string name="m21">Short Answer</string>
+    <string name="m22">Mixed Types (Challenging!)</string>
+    <string name="m23">Difficulty Level</string>
+    <string name="m24">🟢 Easy - Beginner Friendly</string>
+    <string name="m25">🟡 Medium - Moderate Challenge</string>
+    <string name="m26">🟠 Hard - For Experts</string>
+    <string name="m27">🔴 Expert - Master Level</string>
+    <string name="m28">Start Quiz</string>
+    <string name="m29">📊 Dashboard</string>
+    <string name="m30">🏆 Badges</string>
+</resources>
