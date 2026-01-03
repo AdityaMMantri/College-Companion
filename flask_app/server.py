@@ -1,16 +1,16 @@
-import sys
-import os
 import asyncio
 import json
 from firebase_admin import firestore
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from flask import Flask, jsonify, request
-from Agent_1_trial import main as agent1_main
-from Agent_2_trial import start_conversation
-from Agent_3 import EnhancedGamifiedQuizAgent
-from database import add
-from summary import summarizer
+
+from flask_app.database import add
+from flask_app.summary import summarizer
+
+from flask_app.python_agents.Agent1 import main as agent1_main
+from flask_app.python_agents.Agent2 import start_conversation
+from flask_app.python_agents.Agent3 import EnhancedGamifiedQuizAgent
+
 
 # Create a SINGLE global agent instance that persists across requests
 quiz_agent = EnhancedGamifiedQuizAgent()
