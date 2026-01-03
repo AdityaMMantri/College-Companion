@@ -1,4 +1,4 @@
-package com.example.ui_demo;
+package com.example.ui_demo.adapter;
 
 import android.view.LayoutInflater;
 import android.view.View;

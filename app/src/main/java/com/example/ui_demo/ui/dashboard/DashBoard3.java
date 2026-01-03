@@ -1,4 +1,4 @@
-package com.example.ui_demo;
+package com.example.ui_demo.ui.dashboard;
 
 import android.os.Bundle;
 import android.view.View;

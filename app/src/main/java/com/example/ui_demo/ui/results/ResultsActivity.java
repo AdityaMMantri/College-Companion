@@ -1,4 +1,4 @@
-package com.example.ui_demo;
+package com.example.ui_demo.ui.results;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;

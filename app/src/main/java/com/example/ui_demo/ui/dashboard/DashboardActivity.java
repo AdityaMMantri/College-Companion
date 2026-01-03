@@ -1,4 +1,4 @@
-package com.example.ui_demo;
+package com.example.ui_demo.ui.dashboard;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;

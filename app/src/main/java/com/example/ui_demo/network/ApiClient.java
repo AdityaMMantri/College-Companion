@@ -1,4 +1,4 @@
-package com.example.ui_demo;
+package com.example.ui_demo.network;
 
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;

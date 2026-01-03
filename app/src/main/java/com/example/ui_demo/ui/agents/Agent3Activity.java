@@ -1,4 +1,4 @@
-package com.example.ui_demo;
+package com.example.ui_demo.ui.agents;
 
 import android.content.Intent;
 import android.os.Bundle;
