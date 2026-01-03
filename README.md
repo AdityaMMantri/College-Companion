@@ -31,7 +31,7 @@ By combining **AI agents**, **cloud storage**, and a **mobile-first interface**,
 
 Android App (Java)
 |
-| REST APIs
+| 
 v
 Flask Backend (Python)
 |
@@ -75,9 +75,9 @@ Multiple AI Agents (LangChain / LangGraph)
 
 | Agent | Name | Responsibility |
 |-----|-----|----------------|
-| Agent 1 | Timetable Agent | Generates and optimizes study schedules based on subjects, deadlines, and availability |
-| Agent 2 | Study Assistant | Acts as an AI tutor for explanations, doubts, and concept clarification |
-| Agent 3 | Gamification Agent | Generates quizzes, awards badges, and tracks progress |
+| Agent 1  | Timetable Agent | Generates and optimizes study schedules based on subjects, deadlines, and availability |
+| Agent 2  | Study Assistant | Acts as an AI tutor for explanations, doubts, and concept clarification |
+| Agent 3  | Gamification Agent | Generates quizzes, awards badges, and tracks progress |
 
 Each agent is **loosely coupled**, allowing independent upgrades and experimentation.
 
@@ -108,7 +108,6 @@ Each agent is **loosely coupled**, allowing independent upgrades and experimenta
 │
 ├── requirements.txt
 ├── README.md
-└── LICENSE
 
 ````
 
@@ -248,7 +247,4 @@ Ensure:
 3. Commit with clear messages
 4. Open a pull request
 
-Follow clean architecture principles.
-
----
 ```
