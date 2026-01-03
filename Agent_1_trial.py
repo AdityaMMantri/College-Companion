@@ -22,7 +22,7 @@ from langgraph.checkpoint.memory import MemorySaver
 # 1) Secure model setup
 # ─────────────────────────────────────────────────────────────
 
-GOOGLE_API_KEY = "AIzaSyATbLAXPhXEwRJeV6Svajr8pX8AWfNiZCQ"
+GOOGLE_API_KEY = ""
 MODEL_ID = "gemini-2.0-flash"
 
 llm = ChatGoogleGenerativeAI(
@@ -1157,4 +1157,5 @@ Now generate the timetable JSON.
 
 
 if __name__ == "__main__":
+
     main()
