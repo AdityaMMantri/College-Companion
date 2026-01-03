@@ -30,7 +30,7 @@ import base64
 from concurrent.futures import ThreadPoolExecutor
 
 # API Key
-GOOGLE_API_KEY = "AIzaSyATbLAXPhXEwRJeV6Svajr8pX8AWfNiZCQ"
+GOOGLE_API_KEY = ""
 
 # Minimal logging
 logging.basicConfig(level=logging.WARNING)
@@ -582,4 +582,5 @@ if __name__ == "__main__":
         except KeyboardInterrupt:
             print("\nGoodbye!")
         except Exception as e:
+
             print(f"Error: {e}")
