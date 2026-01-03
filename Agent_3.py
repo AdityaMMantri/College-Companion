@@ -16,7 +16,7 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_google_genai import ChatGoogleGenerativeAI
 
 # API Key
-GOOGLE_API_KEY = "AIzaSyATbLAXPhXEwRJeV6Svajr8pX8AWfNiZCQ"
+GOOGLE_API_KEY = ""
 
 # Initialize LLM
 llm = ChatGoogleGenerativeAI(
@@ -1082,4 +1082,5 @@ async def example_usage():
 
 if __name__ == "__main__":
     # Run examples
+
     asyncio.run(example_usage())
